@@ -1,0 +1,183 @@
+﻿生成启动时间为 2016/1/23 17:00:12。
+     1>项目“F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda\HKM_cuda.vcxproj”在节点 2 上(Build 个目标)。
+     1>AddCudaCompileDeps:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c "F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda\average.cu" 
+       CudaBuild:
+         Compiling CUDA source file average.cu...
+         cmd.exe /C "F:\Users\chenyu\AppData\Local\Temp\tmp2e8a21b7577445669436c486e56f624d.cmd"
+         "F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\average.cu.obj "F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda\average.cu"
+         
+         F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda>"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD " -o x64\Release\average.cu.obj "F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda\average.cu" 
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccMatrix.hpp(19): warning : declaration requires a typedef name
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=float]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=double]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint8_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int8_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint32_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int32_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint64_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int64_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccMatrix.hpp(19): warning : declaration requires a typedef name
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccMatrix.hpp(370): warning : statement is unreachable
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccMatrix.hpp(381): warning : statement is unreachable
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning : variable "addr_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning : variable "nid_div" was declared but never referenced
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=float]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=double]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint8_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int8_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint32_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int32_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=uint64_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(346): warning : function "getmeanbycuda(Data<T> &, uint *, uint *) [with T=int64_t]" explicitly instantiated more than once
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(177): warning : variable "cudaStatus" was set but never used
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\program files\nvidia gpu computing toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         average.cu
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccKdt.hpp(229): warning C4267: “return”: 从“size_t”转换到“uint”，可能丢失数据
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccHKmeans.hpp(61): warning C4305: “=”: 从“double”到“float”截断
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(181): warning C4101: “addr_div”: 未引用的局部变量
+                 F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(345): 参见对正在编译的函数 模板 实例化“void getmeanbycuda<float>(Data<float> &,uint *,uint *)”的引用
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(182): warning C4101: “nid_div”: 未引用的局部变量
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccData.hpp(121): warning C4267: “return”: 从“size_t”转换到“uint”，可能丢失数据
+                 f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccData.hpp(119): 编译类 模板 成员函数“uint Data<float>::size(void)”时
+                 F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(183): 参见对正在编译的函数 模板 实例化“uint Data<float>::size(void)”的引用
+                 F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(183): 参见对正在编译的类 模板 实例化“Data<float>”的引用
+                 F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(345): 参见对正在编译的函数 模板 实例化“void getmeanbycuda<float>(Data<float> &,uint *,uint *)”的引用
+     1>F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(143): warning C4101: “addr_div”: 未引用的局部变量
+                 F:/Users/chenyu/Documents/Visual Studio 2013/Projects/HKM_cuda/HKM_cuda/average.cu(185): 参见对正在编译的函数 模板 实例化“cudaError_t getidWithCuda<float>(Data<float> &,uint *,uint *,uint *)”的引用
+       Link:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\x64\Release\HKM_cuda.exe" /NOLOGO /LIBPATH:"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" /LIBPATH:C:\c++\boost_1_58_0\libs /LIBPATH:"F:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" libmx.lib libmex.lib libeng.lib cublas.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\x64\Release\HKM_cuda.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\x64\Release\HKM_cuda.lib" /MACHINE:X64 x64\Release\average.cu.obj
+         x64\Release\ccDistance.obj
+         x64\Release\ccHKmeans.obj
+         x64\Release\ccKdt.obj
+         x64\Release\cu_knn.obj
+         x64\Release\main.obj
+         正在生成代码
+     1>f:\users\chenyu\documents\visual studio 2013\projects\hkm_cuda\hkm_cuda\ccmatrix.hpp(383): warning C4715: “Matrix<unsigned int>::get”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         HKM_cuda.vcxproj -> F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\x64\Release\HKM_cuda.exe
+     1>已完成生成项目“F:\Users\chenyu\Documents\Visual Studio 2013\Projects\HKM_cuda\HKM_cuda\HKM_cuda.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.34
